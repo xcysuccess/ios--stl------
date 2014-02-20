@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B157739187DA04A004E0752 /* sequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B157737187DA04A004E0752 /* sequence.cpp */; };
+		4B15773A187DA04A004E0752 /* sequence.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B157738187DA04A004E0752 /* sequence.h */; };
+		4B15773F187DAAA8004E0752 /* TBVector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B15773D187DAAA8004E0752 /* TBVector.cpp */; };
+		4B157740187DAAA8004E0752 /* TBVector.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B15773E187DAAA8004E0752 /* TBVector.h */; };
+		4B3B3110188232EB006B88D2 /* TBList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B3B310E188232EB006B88D2 /* TBList.cpp */; };
+		4B3B3111188232EB006B88D2 /* TBList.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B3B310F188232EB006B88D2 /* TBList.h */; };
+		4B466DCA188123E200500742 /* TBDeque.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B466DC8188123E200500742 /* TBDeque.cpp */; };
+		4B466DCB188123E200500742 /* TBDeque.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B466DC9188123E200500742 /* TBDeque.h */; };
+		4B48E569187B5C6B006B4185 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B48E568187B5C6B006B4185 /* Cocoa.framework */; };
+		4B48E57A187B5C6B006B4185 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B48E579187B5C6B006B4185 /* XCTest.framework */; };
+		4B48E57B187B5C6B006B4185 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B48E568187B5C6B006B4185 /* Cocoa.framework */; };
+		4B48E57E187B5C6B006B4185 /* libxcySTL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B48E565187B5C6B006B4185 /* libxcySTL.a */; };
+		4B48E584187B5C6B006B4185 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B48E582187B5C6B006B4185 /* InfoPlist.strings */; };
+		4B48E586187B5C6B006B4185 /* xcySTLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B48E585187B5C6B006B4185 /* xcySTLTests.m */; };
+		4B48E591187B5C6B006B4185 /* containter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B48E58F187B5C6B006B4185 /* containter.cpp */; };
+		4B48E592187B5C6B006B4185 /* containter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B48E590187B5C6B006B4185 /* containter.h */; };
+		4B7FD5B818828E6B0052D9B6 /* TBAssociate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B7FD5B618828E6B0052D9B6 /* TBAssociate.cpp */; };
+		4B7FD5B918828E6B0052D9B6 /* TBAssociate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B7FD5B718828E6B0052D9B6 /* TBAssociate.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B48E57C187B5C6B006B4185 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B48E55D187B5C6B006B4185 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B48E564187B5C6B006B4185;
+			remoteInfo = xcySTL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B157737187DA04A004E0752 /* sequence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sequence.cpp; sourceTree = "<group>"; };
+		4B157738187DA04A004E0752 /* sequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sequence.h; sourceTree = "<group>"; };
+		4B15773D187DAAA8004E0752 /* TBVector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TBVector.cpp; sourceTree = "<group>"; };
+		4B15773E187DAAA8004E0752 /* TBVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBVector.h; sourceTree = "<group>"; };
+		4B3B310E188232EB006B88D2 /* TBList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TBList.cpp; sourceTree = "<group>"; };
+		4B3B310F188232EB006B88D2 /* TBList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBList.h; sourceTree = "<group>"; };
+		4B466DC8188123E200500742 /* TBDeque.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TBDeque.cpp; sourceTree = "<group>"; };
+		4B466DC9188123E200500742 /* TBDeque.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBDeque.h; sourceTree = "<group>"; };
+		4B48E565187B5C6B006B4185 /* libxcySTL.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libxcySTL.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B48E568187B5C6B006B4185 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4B48E56B187B5C6B006B4185 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4B48E56C187B5C6B006B4185 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4B48E56D187B5C6B006B4185 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4B48E570187B5C6B006B4185 /* xcySTL-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "xcySTL-Prefix.pch"; sourceTree = "<group>"; };
+		4B48E578187B5C6B006B4185 /* xcySTLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xcySTLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B48E579187B5C6B006B4185 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4B48E581187B5C6B006B4185 /* xcySTLTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "xcySTLTests-Info.plist"; sourceTree = "<group>"; };
+		4B48E583187B5C6B006B4185 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4B48E585187B5C6B006B4185 /* xcySTLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xcySTLTests.m; sourceTree = "<group>"; };
+		4B48E58F187B5C6B006B4185 /* containter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = containter.cpp; sourceTree = "<group>"; };
+		4B48E590187B5C6B006B4185 /* containter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = containter.h; sourceTree = "<group>"; };
+		4B7FD5B618828E6B0052D9B6 /* TBAssociate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TBAssociate.cpp; sourceTree = "<group>"; };
+		4B7FD5B718828E6B0052D9B6 /* TBAssociate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBAssociate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B48E562187B5C6B006B4185 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B48E569187B5C6B006B4185 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B48E575187B5C6B006B4185 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B48E57E187B5C6B006B4185 /* libxcySTL.a in Frameworks */,
+				4B48E57B187B5C6B006B4185 /* Cocoa.framework in Frameworks */,
+				4B48E57A187B5C6B006B4185 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B157736187D9FED004E0752 /* sequence */ = {
+			isa = PBXGroup;
+			children = (
+				4B157738187DA04A004E0752 /* sequence.h */,
+				4B157737187DA04A004E0752 /* sequence.cpp */,
+			);
+			name = sequence;
+			sourceTree = "<group>";
+		};
+		4B15773C187DAA2B004E0752 /* vector */ = {
+			isa = PBXGroup;
+			children = (
+				4B15773E187DAAA8004E0752 /* TBVector.h */,
+				4B15773D187DAAA8004E0752 /* TBVector.cpp */,
+			);
+			name = vector;
+			sourceTree = "<group>";
+		};
+		4B3B310C188232D0006B88D2 /* list */ = {
+			isa = PBXGroup;
+			children = (
+				4B3B310F188232EB006B88D2 /* TBList.h */,
+				4B3B310E188232EB006B88D2 /* TBList.cpp */,
+			);
+			name = list;
+			sourceTree = "<group>";
+		};
+		4B466DBF1881236700500742 /* deque */ = {
+			isa = PBXGroup;
+			children = (
+				4B466DC9188123E200500742 /* TBDeque.h */,
+				4B466DC8188123E200500742 /* TBDeque.cpp */,
+			);
+			name = deque;
+			sourceTree = "<group>";
+		};
+		4B48E55C187B5C6B006B4185 = {
+			isa = PBXGroup;
+			children = (
+				4B48E56E187B5C6B006B4185 /* xcySTL */,
+				4B48E57F187B5C6B006B4185 /* xcySTLTests */,
+				4B48E567187B5C6B006B4185 /* Frameworks */,
+				4B48E566187B5C6B006B4185 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B48E566187B5C6B006B4185 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B48E565187B5C6B006B4185 /* libxcySTL.a */,
+				4B48E578187B5C6B006B4185 /* xcySTLTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B48E567187B5C6B006B4185 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B48E568187B5C6B006B4185 /* Cocoa.framework */,
+				4B48E579187B5C6B006B4185 /* XCTest.framework */,
+				4B48E56A187B5C6B006B4185 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B48E56A187B5C6B006B4185 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B48E56B187B5C6B006B4185 /* Foundation.framework */,
+				4B48E56C187B5C6B006B4185 /* CoreData.framework */,
+				4B48E56D187B5C6B006B4185 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4B48E56E187B5C6B006B4185 /* xcySTL */ = {
+			isa = PBXGroup;
+			children = (
+				4B48E59A187B5C6B006B4185 /* containter */,
+				4B157736187D9FED004E0752 /* sequence */,
+				4B15773C187DAA2B004E0752 /* vector */,
+				4B466DBF1881236700500742 /* deque */,
+				4B3B310C188232D0006B88D2 /* list */,
+				4B7FD5B518828E540052D9B6 /* associate */,
+				4B48E56F187B5C6B006B4185 /* Supporting Files */,
+			);
+			path = xcySTL;
+			sourceTree = "<group>";
+		};
+		4B48E56F187B5C6B006B4185 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B48E570187B5C6B006B4185 /* xcySTL-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B48E57F187B5C6B006B4185 /* xcySTLTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B48E585187B5C6B006B4185 /* xcySTLTests.m */,
+				4B48E580187B5C6B006B4185 /* Supporting Files */,
+			);
+			path = xcySTLTests;
+			sourceTree = "<group>";
+		};
+		4B48E580187B5C6B006B4185 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B48E581187B5C6B006B4185 /* xcySTLTests-Info.plist */,
+				4B48E582187B5C6B006B4185 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B48E59A187B5C6B006B4185 /* containter */ = {
+			isa = PBXGroup;
+			children = (
+				4B48E590187B5C6B006B4185 /* containter.h */,
+				4B48E58F187B5C6B006B4185 /* containter.cpp */,
+			);
+			name = containter;
+			sourceTree = "<group>";
+		};
+		4B7FD5B518828E540052D9B6 /* associate */ = {
+			isa = PBXGroup;
+			children = (
+				4B7FD5B618828E6B0052D9B6 /* TBAssociate.cpp */,
+				4B7FD5B718828E6B0052D9B6 /* TBAssociate.h */,
+			);
+			name = associate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4B48E563187B5C6B006B4185 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B48E592187B5C6B006B4185 /* containter.h in Headers */,
+				4B466DCB188123E200500742 /* TBDeque.h in Headers */,
+				4B157740187DAAA8004E0752 /* TBVector.h in Headers */,
+				4B7FD5B918828E6B0052D9B6 /* TBAssociate.h in Headers */,
+				4B15773A187DA04A004E0752 /* sequence.h in Headers */,
+				4B3B3111188232EB006B88D2 /* TBList.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4B48E564187B5C6B006B4185 /* xcySTL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B48E589187B5C6B006B4185 /* Build configuration list for PBXNativeTarget "xcySTL" */;
+			buildPhases = (
+				4B48E561187B5C6B006B4185 /* Sources */,
+				4B48E562187B5C6B006B4185 /* Frameworks */,
+				4B48E563187B5C6B006B4185 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = xcySTL;
+			productName = xcySTL;
+			productReference = 4B48E565187B5C6B006B4185 /* libxcySTL.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4B48E577187B5C6B006B4185 /* xcySTLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B48E58C187B5C6B006B4185 /* Build configuration list for PBXNativeTarget "xcySTLTests" */;
+			buildPhases = (
+				4B48E574187B5C6B006B4185 /* Sources */,
+				4B48E575187B5C6B006B4185 /* Frameworks */,
+				4B48E576187B5C6B006B4185 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B48E57D187B5C6B006B4185 /* PBXTargetDependency */,
+			);
+			name = xcySTLTests;
+			productName = xcySTLTests;
+			productReference = 4B48E578187B5C6B006B4185 /* xcySTLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B48E55D187B5C6B006B4185 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = XiangChenyu;
+			};
+			buildConfigurationList = 4B48E560187B5C6B006B4185 /* Build configuration list for PBXProject "xcySTL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4B48E55C187B5C6B006B4185;
+			productRefGroup = 4B48E566187B5C6B006B4185 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B48E564187B5C6B006B4185 /* xcySTL */,
+				4B48E577187B5C6B006B4185 /* xcySTLTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B48E576187B5C6B006B4185 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B48E584187B5C6B006B4185 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B48E561187B5C6B006B4185 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B157739187DA04A004E0752 /* sequence.cpp in Sources */,
+				4B15773F187DAAA8004E0752 /* TBVector.cpp in Sources */,
+				4B7FD5B818828E6B0052D9B6 /* TBAssociate.cpp in Sources */,
+				4B3B3110188232EB006B88D2 /* TBList.cpp in Sources */,
+				4B466DCA188123E200500742 /* TBDeque.cpp in Sources */,
+				4B48E591187B5C6B006B4185 /* containter.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B48E574187B5C6B006B4185 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B48E586187B5C6B006B4185 /* xcySTLTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B48E57D187B5C6B006B4185 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B48E564187B5C6B006B4185 /* xcySTL */;
+			targetProxy = 4B48E57C187B5C6B006B4185 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B48E582187B5C6B006B4185 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B48E583187B5C6B006B4185 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B48E587187B5C6B006B4185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "../../ ./ ../ ../../xcyBASE/";
+			};
+			name = Debug;
+		};
+		4B48E588187B5C6B006B4185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "../../ ./ ../ ../../xcyBASE/";
+			};
+			name = Release;
+		};
+		4B48E58A187B5C6B006B4185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "xcySTL/xcySTL-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "../../ ./ ../ ../../xcyBASE/xcyBASE/";
+			};
+			name = Debug;
+		};
+		4B48E58B187B5C6B006B4185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "xcySTL/xcySTL-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "../../ ./ ../ ../../xcyBASE/xcyBASE/";
+			};
+			name = Release;
+		};
+		4B48E58D187B5C6B006B4185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "xcySTL/xcySTL-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "xcySTLTests/xcySTLTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4B48E58E187B5C6B006B4185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "xcySTL/xcySTL-Prefix.pch";
+				INFOPLIST_FILE = "xcySTLTests/xcySTLTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B48E560187B5C6B006B4185 /* Build configuration list for PBXProject "xcySTL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B48E587187B5C6B006B4185 /* Debug */,
+				4B48E588187B5C6B006B4185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B48E589187B5C6B006B4185 /* Build configuration list for PBXNativeTarget "xcySTL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B48E58A187B5C6B006B4185 /* Debug */,
+				4B48E58B187B5C6B006B4185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B48E58C187B5C6B006B4185 /* Build configuration list for PBXNativeTarget "xcySTLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B48E58D187B5C6B006B4185 /* Debug */,
+				4B48E58E187B5C6B006B4185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B48E55D187B5C6B006B4185 /* Project object */;
+}
