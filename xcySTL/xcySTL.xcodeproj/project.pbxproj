@@ -11,8 +11,14 @@
 		4B15773A187DA04A004E0752 /* sequence.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B157738187DA04A004E0752 /* sequence.h */; };
 		4B15773F187DAAA8004E0752 /* TBVector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B15773D187DAAA8004E0752 /* TBVector.cpp */; };
 		4B157740187DAAA8004E0752 /* TBVector.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B15773E187DAAA8004E0752 /* TBVector.h */; };
+		4B30C5EE18C7488200D3A1F1 /* specialClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B30C5EC18C7488200D3A1F1 /* specialClass.cpp */; };
+		4B30C5EF18C7488200D3A1F1 /* specialClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B30C5ED18C7488200D3A1F1 /* specialClass.h */; };
+		4B30C5F218C7532200D3A1F1 /* stringClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B30C5F018C7532200D3A1F1 /* stringClass.cpp */; };
+		4B30C5F318C7532200D3A1F1 /* stringClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B30C5F118C7532200D3A1F1 /* stringClass.h */; };
 		4B3B3110188232EB006B88D2 /* TBList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B3B310E188232EB006B88D2 /* TBList.cpp */; };
 		4B3B3111188232EB006B88D2 /* TBList.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B3B310F188232EB006B88D2 /* TBList.h */; };
+		4B453A3D18C8AA2B00EFFF4B /* stlforeach.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B453A3B18C8AA2B00EFFF4B /* stlforeach.cpp */; };
+		4B453A3E18C8AA2B00EFFF4B /* stlforeach.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B453A3C18C8AA2B00EFFF4B /* stlforeach.h */; };
 		4B466DCA188123E200500742 /* TBDeque.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B466DC8188123E200500742 /* TBDeque.cpp */; };
 		4B466DCB188123E200500742 /* TBDeque.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B466DC9188123E200500742 /* TBDeque.h */; };
 		4B48E569187B5C6B006B4185 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B48E568187B5C6B006B4185 /* Cocoa.framework */; };
@@ -23,8 +29,18 @@
 		4B48E586187B5C6B006B4185 /* xcySTLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B48E585187B5C6B006B4185 /* xcySTLTests.m */; };
 		4B48E591187B5C6B006B4185 /* containter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B48E58F187B5C6B006B4185 /* containter.cpp */; };
 		4B48E592187B5C6B006B4185 /* containter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B48E590187B5C6B006B4185 /* containter.h */; };
+		4B61F2E418C2256E00EEAE75 /* wyMultimap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B61F2E218C2256E00EEAE75 /* wyMultimap.cpp */; };
+		4B61F2E518C2256E00EEAE75 /* wyMultimap.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B61F2E318C2256E00EEAE75 /* wyMultimap.h */; };
+		4B61F2E918C22A5400EEAE75 /* wySet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B61F2E718C22A5400EEAE75 /* wySet.cpp */; };
+		4B61F2EA18C22A5400EEAE75 /* wySet.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B61F2E818C22A5400EEAE75 /* wySet.h */; };
+		4B61F2ED18C22BBF00EEAE75 /* multiset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B61F2EB18C22BBF00EEAE75 /* multiset.cpp */; };
+		4B61F2EE18C22BBF00EEAE75 /* multiset.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B61F2EC18C22BBF00EEAE75 /* multiset.h */; };
 		4B7FD5B818828E6B0052D9B6 /* TBAssociate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B7FD5B618828E6B0052D9B6 /* TBAssociate.cpp */; };
 		4B7FD5B918828E6B0052D9B6 /* TBAssociate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B7FD5B718828E6B0052D9B6 /* TBAssociate.h */; };
+		4BA40FCC18BBA66400F4A974 /* WYAssociate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BA40FCA18BBA66400F4A974 /* WYAssociate.h */; };
+		4BA40FCD18BBA66400F4A974 /* WYAssociate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA40FCB18BBA66400F4A974 /* WYAssociate.m */; };
+		4BB5F07118BE3FFB00904000 /* cMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BB5F06F18BE3FFB00904000 /* cMap.cpp */; };
+		4BB5F07218BE3FFB00904000 /* cMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BB5F07018BE3FFB00904000 /* cMap.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +58,15 @@
 		4B157738187DA04A004E0752 /* sequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sequence.h; sourceTree = "<group>"; };
 		4B15773D187DAAA8004E0752 /* TBVector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TBVector.cpp; sourceTree = "<group>"; };
 		4B15773E187DAAA8004E0752 /* TBVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBVector.h; sourceTree = "<group>"; };
+		4B30C5EC18C7488200D3A1F1 /* specialClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = specialClass.cpp; sourceTree = "<group>"; };
+		4B30C5ED18C7488200D3A1F1 /* specialClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = specialClass.h; sourceTree = "<group>"; };
+		4B30C5F018C7532200D3A1F1 /* stringClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stringClass.cpp; sourceTree = "<group>"; };
+		4B30C5F118C7532200D3A1F1 /* stringClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringClass.h; sourceTree = "<group>"; };
 		4B3B310E188232EB006B88D2 /* TBList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TBList.cpp; sourceTree = "<group>"; };
 		4B3B310F188232EB006B88D2 /* TBList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBList.h; sourceTree = "<group>"; };
+		4B453A3B18C8AA2B00EFFF4B /* stlforeach.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stlforeach.cpp; sourceTree = "<group>"; };
+		4B453A3C18C8AA2B00EFFF4B /* stlforeach.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stlforeach.h; sourceTree = "<group>"; };
+		4B453A3F18C8B1F900EFFF4B /* stlcopy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stlcopy.h; sourceTree = "<group>"; };
 		4B466DC8188123E200500742 /* TBDeque.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TBDeque.cpp; sourceTree = "<group>"; };
 		4B466DC9188123E200500742 /* TBDeque.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBDeque.h; sourceTree = "<group>"; };
 		4B48E565187B5C6B006B4185 /* libxcySTL.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libxcySTL.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,8 +82,18 @@
 		4B48E585187B5C6B006B4185 /* xcySTLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xcySTLTests.m; sourceTree = "<group>"; };
 		4B48E58F187B5C6B006B4185 /* containter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = containter.cpp; sourceTree = "<group>"; };
 		4B48E590187B5C6B006B4185 /* containter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = containter.h; sourceTree = "<group>"; };
+		4B61F2E218C2256E00EEAE75 /* wyMultimap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wyMultimap.cpp; sourceTree = "<group>"; };
+		4B61F2E318C2256E00EEAE75 /* wyMultimap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wyMultimap.h; sourceTree = "<group>"; };
+		4B61F2E718C22A5400EEAE75 /* wySet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wySet.cpp; sourceTree = "<group>"; };
+		4B61F2E818C22A5400EEAE75 /* wySet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wySet.h; sourceTree = "<group>"; };
+		4B61F2EB18C22BBF00EEAE75 /* multiset.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = multiset.cpp; sourceTree = "<group>"; };
+		4B61F2EC18C22BBF00EEAE75 /* multiset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = multiset.h; sourceTree = "<group>"; };
 		4B7FD5B618828E6B0052D9B6 /* TBAssociate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TBAssociate.cpp; sourceTree = "<group>"; };
 		4B7FD5B718828E6B0052D9B6 /* TBAssociate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBAssociate.h; sourceTree = "<group>"; };
+		4BA40FCA18BBA66400F4A974 /* WYAssociate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAssociate.h; sourceTree = "<group>"; };
+		4BA40FCB18BBA66400F4A974 /* WYAssociate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAssociate.m; sourceTree = "<group>"; };
+		4BB5F06F18BE3FFB00904000 /* cMap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cMap.cpp; sourceTree = "<group>"; };
+		4BB5F07018BE3FFB00904000 /* cMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cMap.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +134,20 @@
 				4B15773D187DAAA8004E0752 /* TBVector.cpp */,
 			);
 			name = vector;
+			sourceTree = "<group>";
+		};
+		4B30C5EB18C7479F00D3A1F1 /* special */ = {
+			isa = PBXGroup;
+			children = (
+				4B453A3F18C8B1F900EFFF4B /* stlcopy.h */,
+				4B453A3C18C8AA2B00EFFF4B /* stlforeach.h */,
+				4B453A3B18C8AA2B00EFFF4B /* stlforeach.cpp */,
+				4B30C5ED18C7488200D3A1F1 /* specialClass.h */,
+				4B30C5EC18C7488200D3A1F1 /* specialClass.cpp */,
+				4B30C5F118C7532200D3A1F1 /* stringClass.h */,
+				4B30C5F018C7532200D3A1F1 /* stringClass.cpp */,
+			);
+			name = special;
 			sourceTree = "<group>";
 		};
 		4B3B310C188232D0006B88D2 /* list */ = {
@@ -163,6 +210,10 @@
 		4B48E56E187B5C6B006B4185 /* xcySTL */ = {
 			isa = PBXGroup;
 			children = (
+				4B30C5EB18C7479F00D3A1F1 /* special */,
+				4B61F2E618C2298000EEAE75 /* set */,
+				4B61F2E118C2255500EEAE75 /* multimap */,
+				4BB5F06E18BE3FDB00904000 /* map */,
 				4B48E59A187B5C6B006B4185 /* containter */,
 				4B157736187D9FED004E0752 /* sequence */,
 				4B15773C187DAA2B004E0752 /* vector */,
@@ -209,13 +260,44 @@
 			name = containter;
 			sourceTree = "<group>";
 		};
+		4B61F2E118C2255500EEAE75 /* multimap */ = {
+			isa = PBXGroup;
+			children = (
+				4B61F2E318C2256E00EEAE75 /* wyMultimap.h */,
+				4B61F2E218C2256E00EEAE75 /* wyMultimap.cpp */,
+			);
+			name = multimap;
+			sourceTree = "<group>";
+		};
+		4B61F2E618C2298000EEAE75 /* set */ = {
+			isa = PBXGroup;
+			children = (
+				4B61F2E818C22A5400EEAE75 /* wySet.h */,
+				4B61F2E718C22A5400EEAE75 /* wySet.cpp */,
+				4B61F2EC18C22BBF00EEAE75 /* multiset.h */,
+				4B61F2EB18C22BBF00EEAE75 /* multiset.cpp */,
+			);
+			name = set;
+			sourceTree = "<group>";
+		};
 		4B7FD5B518828E540052D9B6 /* associate */ = {
 			isa = PBXGroup;
 			children = (
 				4B7FD5B618828E6B0052D9B6 /* TBAssociate.cpp */,
 				4B7FD5B718828E6B0052D9B6 /* TBAssociate.h */,
+				4BA40FCA18BBA66400F4A974 /* WYAssociate.h */,
+				4BA40FCB18BBA66400F4A974 /* WYAssociate.m */,
 			);
 			name = associate;
+			sourceTree = "<group>";
+		};
+		4BB5F06E18BE3FDB00904000 /* map */ = {
+			isa = PBXGroup;
+			children = (
+				4BB5F07018BE3FFB00904000 /* cMap.h */,
+				4BB5F06F18BE3FFB00904000 /* cMap.cpp */,
+			);
+			name = map;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,10 +307,18 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B61F2E518C2256E00EEAE75 /* wyMultimap.h in Headers */,
+				4B61F2EE18C22BBF00EEAE75 /* multiset.h in Headers */,
+				4B61F2EA18C22A5400EEAE75 /* wySet.h in Headers */,
 				4B48E592187B5C6B006B4185 /* containter.h in Headers */,
 				4B466DCB188123E200500742 /* TBDeque.h in Headers */,
 				4B157740187DAAA8004E0752 /* TBVector.h in Headers */,
 				4B7FD5B918828E6B0052D9B6 /* TBAssociate.h in Headers */,
+				4BA40FCC18BBA66400F4A974 /* WYAssociate.h in Headers */,
+				4B30C5EF18C7488200D3A1F1 /* specialClass.h in Headers */,
+				4B453A3E18C8AA2B00EFFF4B /* stlforeach.h in Headers */,
+				4B30C5F318C7532200D3A1F1 /* stringClass.h in Headers */,
+				4BB5F07218BE3FFB00904000 /* cMap.h in Headers */,
 				4B15773A187DA04A004E0752 /* sequence.h in Headers */,
 				4B3B3111188232EB006B88D2 /* TBList.h in Headers */,
 			);
@@ -316,10 +406,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B157739187DA04A004E0752 /* sequence.cpp in Sources */,
+				4B30C5F218C7532200D3A1F1 /* stringClass.cpp in Sources */,
+				4B61F2E418C2256E00EEAE75 /* wyMultimap.cpp in Sources */,
+				4B61F2E918C22A5400EEAE75 /* wySet.cpp in Sources */,
+				4B453A3D18C8AA2B00EFFF4B /* stlforeach.cpp in Sources */,
 				4B15773F187DAAA8004E0752 /* TBVector.cpp in Sources */,
+				4BB5F07118BE3FFB00904000 /* cMap.cpp in Sources */,
 				4B7FD5B818828E6B0052D9B6 /* TBAssociate.cpp in Sources */,
 				4B3B3110188232EB006B88D2 /* TBList.cpp in Sources */,
+				4B61F2ED18C22BBF00EEAE75 /* multiset.cpp in Sources */,
 				4B466DCA188123E200500742 /* TBDeque.cpp in Sources */,
+				4B30C5EE18C7488200D3A1F1 /* specialClass.cpp in Sources */,
+				4BA40FCD18BBA66400F4A974 /* WYAssociate.m in Sources */,
 				4B48E591187B5C6B006B4185 /* containter.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

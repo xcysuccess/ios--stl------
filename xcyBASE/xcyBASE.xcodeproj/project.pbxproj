@@ -51,6 +51,7 @@
 		4B48E558187B5C6B006B4185 /* iosstring.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = iosstring.cpp; sourceTree = "<group>"; };
 		4B48E559187B5C6B006B4185 /* iosstring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iosstring.h; sourceTree = "<group>"; };
 		4B48E598187B5C6B006B4185 /* ioslog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ioslog.h; sourceTree = "<group>"; };
+		4BB5F07318BE43EA00904000 /* ioslogmap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ioslogmap.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				4B48E598187B5C6B006B4185 /* ioslog.h */,
+				4BB5F07318BE43EA00904000 /* ioslogmap.h */,
 			);
 			name = debugtest;
 			sourceTree = "<group>";

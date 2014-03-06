@@ -16,6 +16,7 @@
 #include <list>
 #include <vector>
 #include <deque>
+#include <queue>
 #include <string>
 #include <cassert>
 #include <set>
@@ -28,6 +29,8 @@ using namespace std;
 #include "iosstring.h"
 
 #include "ioslog.h"
+
+#include "ioslogmap.h"
 
 #include "iosbase.h"
 

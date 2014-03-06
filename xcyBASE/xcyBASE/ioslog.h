@@ -23,7 +23,7 @@ void printIterator(T b, T e, char c = ' ')
 {
     while( b != e)
     {
-        cout << *b++ << c;
+        std::cout << *b++ << c;
     }
     cout << std::endl;
 }

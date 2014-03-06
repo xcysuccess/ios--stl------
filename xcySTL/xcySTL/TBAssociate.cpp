@@ -30,6 +30,7 @@ void TBAssociate::printTest()
 {
     int  array[] = {1, 2, 6, 3, 5 ,5};
     set<int> cset(array, array + 5);
+    std::sort(array, array+5, setCompare());
     printIterator(cset.begin(),cset.end());
     cset.insert(5);
     cset.insert(10);

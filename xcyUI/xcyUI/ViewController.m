@@ -8,7 +8,6 @@
 
 #import "ViewController.h"
 
-
 @interface ViewController ()
 
 @end
@@ -30,8 +29,14 @@
 
 -(void) testPrint
 {
-    TBAssociate tbQueue;
-    tbQueue.printTest();
+//    TBAssociate tbQueue;
+//    tbQueue.printTest();
+//    wyMultiSet tWYMultiSet;
+//    tWYMultiSet.testwyMultiSet();
+    
+    stlcopy jsSpecial;
+    jsSpecial.testPrint();
+    //    cMap map;
 }
 
 @end
