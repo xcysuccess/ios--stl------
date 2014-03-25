@@ -29,7 +29,9 @@
 
 -(void) testPrint
 {
-    dutytest::show();
+    treetest treetest;
+    treetest.TreeTestPreOrder();
+//    dutytest::show();
 //    observertest::show();
 //    cMap cmp;
 //    char b = 'k';

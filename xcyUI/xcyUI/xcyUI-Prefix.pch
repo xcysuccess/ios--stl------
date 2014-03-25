@@ -38,6 +38,6 @@
 #include "../../xcyDesignMode/xcyDesignMode/statetest.h"
 #include "../../xcyDesignMode/xcyDesignMode/observer/observertest.h"
 #include "../../xcyDesignMode/xcyDesignMode/duty/dutytest.h"
-
+#include "../../xcyDataStruct/xcyDataStruct/treetest.h"
 
 

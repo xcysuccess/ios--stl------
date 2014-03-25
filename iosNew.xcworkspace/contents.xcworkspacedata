@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:xcyDataStruct/xcyDataStruct.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:xcyDesignMode/xcyDesignMode.xcodeproj">
    </FileRef>
    <FileRef
