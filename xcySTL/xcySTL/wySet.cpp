@@ -13,7 +13,7 @@ void wySet::testWySet()
     set<string> ss;
 
     ss.insert("5");
-    ss.insert("6");
     ss.insert("7");
+    ss.insert("6");
     printIterator(ss.begin(),ss.end());
 }

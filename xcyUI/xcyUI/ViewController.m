@@ -29,13 +29,27 @@
 
 -(void) testPrint
 {
+    dutytest::show();
+//    observertest::show();
+//    cMap cmp;
+//    char b = 'k';
+//    TBTemplateTYPE<char*> ttChar;
+//    cout << ttChar.name() << endl;
+//    std::vector<int> vec(10,5);
+//    TBTemplateTYPE<vec> tbType;
+//    tbType.name();
+//    testDrivedPtr();
+//    cout << typeid(Fact<5>).name() << endl;
+//    Fact<5> fact0;
+//    fact0.printTestFact();
+    
 //    TBAssociate tbQueue;
 //    tbQueue.printTest();
 //    wyMultiSet tWYMultiSet;
 //    tWYMultiSet.testwyMultiSet();
     
-    stlcopy jsSpecial;
-    jsSpecial.testPrint();
+//    stlfind jsSpecial;
+//    jsSpecial.testPrintIterator();
     //    cMap map;
 }
 

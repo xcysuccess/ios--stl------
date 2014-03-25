@@ -88,12 +88,16 @@
 		4B61F2E818C22A5400EEAE75 /* wySet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wySet.h; sourceTree = "<group>"; };
 		4B61F2EB18C22BBF00EEAE75 /* multiset.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = multiset.cpp; sourceTree = "<group>"; };
 		4B61F2EC18C22BBF00EEAE75 /* multiset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = multiset.h; sourceTree = "<group>"; };
+		4B72CCF918CC33A100FBCAE5 /* TBTemplate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBTemplate.h; sourceTree = "<group>"; };
+		4B72CCFA18CC370F00FBCAE5 /* TBTypeinfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBTypeinfo.h; sourceTree = "<group>"; };
+		4B72CCFB18CC3C2000FBCAE5 /* TBTemplateTYPE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBTemplateTYPE.h; sourceTree = "<group>"; };
 		4B7FD5B618828E6B0052D9B6 /* TBAssociate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TBAssociate.cpp; sourceTree = "<group>"; };
 		4B7FD5B718828E6B0052D9B6 /* TBAssociate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBAssociate.h; sourceTree = "<group>"; };
 		4BA40FCA18BBA66400F4A974 /* WYAssociate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAssociate.h; sourceTree = "<group>"; };
 		4BA40FCB18BBA66400F4A974 /* WYAssociate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAssociate.m; sourceTree = "<group>"; };
 		4BB5F06F18BE3FFB00904000 /* cMap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cMap.cpp; sourceTree = "<group>"; };
 		4BB5F07018BE3FFB00904000 /* cMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cMap.h; sourceTree = "<group>"; };
+		4BD50AFF18C8C4BD008F9324 /* stlfind.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stlfind.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				4B453A3F18C8B1F900EFFF4B /* stlcopy.h */,
+				4BD50AFF18C8C4BD008F9324 /* stlfind.h */,
 				4B453A3C18C8AA2B00EFFF4B /* stlforeach.h */,
 				4B453A3B18C8AA2B00EFFF4B /* stlforeach.cpp */,
 				4B30C5ED18C7488200D3A1F1 /* specialClass.h */,
@@ -210,6 +215,7 @@
 		4B48E56E187B5C6B006B4185 /* xcySTL */ = {
 			isa = PBXGroup;
 			children = (
+				4B72CCF818CC339000FBCAE5 /* template */,
 				4B30C5EB18C7479F00D3A1F1 /* special */,
 				4B61F2E618C2298000EEAE75 /* set */,
 				4B61F2E118C2255500EEAE75 /* multimap */,
@@ -278,6 +284,16 @@
 				4B61F2EB18C22BBF00EEAE75 /* multiset.cpp */,
 			);
 			name = set;
+			sourceTree = "<group>";
+		};
+		4B72CCF818CC339000FBCAE5 /* template */ = {
+			isa = PBXGroup;
+			children = (
+				4B72CCF918CC33A100FBCAE5 /* TBTemplate.h */,
+				4B72CCFA18CC370F00FBCAE5 /* TBTypeinfo.h */,
+				4B72CCFB18CC3C2000FBCAE5 /* TBTemplateTYPE.h */,
+			);
+			name = template;
 			sourceTree = "<group>";
 		};
 		4B7FD5B518828E540052D9B6 /* associate */ = {

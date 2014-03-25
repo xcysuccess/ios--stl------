@@ -31,3 +31,13 @@
 #include "../../xcySTL/xcySTL/specialClass.h"
 #include "../../xcySTL/xcySTL/stlforeach.h"
 #include "../../xcySTL/xcySTL/stlcopy.h"
+#include "../../xcySTL/xcySTL/stlfind.h"
+#include "../../xcySTL/xcySTL/TBTemplate.h"
+#include "../../xcySTL/xcySTL/TBTypeinfo.h"
+#include "../../xcySTL/xcySTL/TBTemplateTYPE.h"
+#include "../../xcyDesignMode/xcyDesignMode/statetest.h"
+#include "../../xcyDesignMode/xcyDesignMode/observer/observertest.h"
+#include "../../xcyDesignMode/xcyDesignMode/duty/dutytest.h"
+
+
+

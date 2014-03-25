@@ -21,7 +21,9 @@
 #include <cassert>
 #include <set>
 #include <map>
-
+#include <cctype>
+#include <string>
+#include <typeinfo>
 using namespace std;
 
 #include "cbase.h"
