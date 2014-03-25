@@ -15,6 +15,7 @@
 		4B07201D18E1726700D35C1F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B07201B18E1726700D35C1F /* InfoPlist.strings */; };
 		4B07201F18E1726700D35C1F /* xcyDataStructTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B07201E18E1726700D35C1F /* xcyDataStructTests.m */; };
 		4B07202B18E1727800D35C1F /* traverTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B07202818E1727800D35C1F /* traverTree.cpp */; };
+		4B07203618E17D8C00D35C1F /* binarysort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B07203418E17D8C00D35C1F /* binarysort.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 		4B07202818E1727800D35C1F /* traverTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = traverTree.cpp; sourceTree = "<group>"; };
 		4B07202918E1727800D35C1F /* traverTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = traverTree.h; sourceTree = "<group>"; };
 		4B07202A18E1727800D35C1F /* treetest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = treetest.h; sourceTree = "<group>"; };
+		4B07203418E17D8C00D35C1F /* binarysort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = binarysort.cpp; sourceTree = "<group>"; };
+		4B07203518E17D8C00D35C1F /* binarysort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = binarysort.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,7 @@
 		4B07200418E1726700D35C1F /* xcyDataStruct */ = {
 			isa = PBXGroup;
 			children = (
+				4B07203318E17D6300D35C1F /* binarysort */,
 				4B07203218E17D3800D35C1F /* basetree */,
 				4B07200518E1726700D35C1F /* Supporting Files */,
 			);
@@ -149,6 +153,15 @@
 				4B07202A18E1727800D35C1F /* treetest.h */,
 			);
 			name = basetree;
+			sourceTree = "<group>";
+		};
+		4B07203318E17D6300D35C1F /* binarysort */ = {
+			isa = PBXGroup;
+			children = (
+				4B07203518E17D8C00D35C1F /* binarysort.h */,
+				4B07203418E17D8C00D35C1F /* binarysort.cpp */,
+			);
+			name = binarysort;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B07203618E17D8C00D35C1F /* binarysort.cpp in Sources */,
 				4B07202B18E1727800D35C1F /* traverTree.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +439,7 @@
 				4B07202418E1726700D35C1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B07202518E1726700D35C1F /* Build configuration list for PBXNativeTarget "xcyDataStructTests" */ = {
 			isa = XCConfigurationList;
@@ -433,6 +448,7 @@
 				4B07202718E1726700D35C1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -29,8 +29,9 @@
 
 -(void) testPrint
 {
-    treetest treetest;
-    treetest.TreeTestPreOrder();
+    mediatest::show();
+//    treetest treetest;
+//    treetest.TreeTestPreOrder();
 //    dutytest::show();
 //    observertest::show();
 //    cMap cmp;

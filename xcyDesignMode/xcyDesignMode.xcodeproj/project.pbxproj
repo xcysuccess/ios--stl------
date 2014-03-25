@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B30FF0218E1D41900EDD3D7 /* person.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B30FF0018E1D41900EDD3D7 /* person.cpp */; };
 		4BA4FE0A18DE92DD00F591A1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BA4FE0918DE92DD00F591A1 /* Cocoa.framework */; };
 		4BA4FE1B18DE92DD00F591A1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BA4FE1A18DE92DD00F591A1 /* XCTest.framework */; };
 		4BA4FE1C18DE92DD00F591A1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BA4FE0918DE92DD00F591A1 /* Cocoa.framework */; };
 		4BA4FE1F18DE92DD00F591A1 /* libxcyDesignMode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BA4FE0618DE92DD00F591A1 /* libxcyDesignMode.a */; };
 		4BA4FE2518DE92DD00F591A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4BA4FE2318DE92DD00F591A1 /* InfoPlist.strings */; };
 		4BA4FE2718DE92DD00F591A1 /* xcyDesignModeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA4FE2618DE92DD00F591A1 /* xcyDesignModeTests.m */; };
+		4BCB9E9518E1D49700EB280A /* mediator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BCB9E9318E1D49700EB280A /* mediator.cpp */; };
+		4BCB9E9918E1D87300EB280A /* mediatest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BCB9E9718E1D87300EB280A /* mediatest.cpp */; };
+		4BCB9E9A18E1D87300EB280A /* mediatest.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BCB9E9818E1D87300EB280A /* mediatest.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B30FEFD18E1CD9500EDD3D7 /* mediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mediator.h; path = mediator/mediator.h; sourceTree = "<group>"; };
+		4B30FEFE18E1D04400EDD3D7 /* person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = person.h; path = mediator/person.h; sourceTree = "<group>"; };
+		4B30FF0018E1D41900EDD3D7 /* person.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = person.cpp; path = mediator/person.cpp; sourceTree = "<group>"; };
 		4BA4FE0618DE92DD00F591A1 /* libxcyDesignMode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libxcyDesignMode.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BA4FE0918DE92DD00F591A1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		4BA4FE0C18DE92DD00F591A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -48,6 +55,9 @@
 		4BB35E6018DF2BBB00EF97A4 /* observer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = observer.h; path = observer/observer.h; sourceTree = "<group>"; };
 		4BB35E6118DF33D000EF97A4 /* csdnblog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = csdnblog.h; path = observer/csdnblog.h; sourceTree = "<group>"; };
 		4BB35E6518DF367C00EF97A4 /* blogobserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = blogobserver.h; path = observer/blogobserver.h; sourceTree = "<group>"; };
+		4BCB9E9318E1D49700EB280A /* mediator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mediator.cpp; path = mediator/mediator.cpp; sourceTree = "<group>"; };
+		4BCB9E9718E1D87300EB280A /* mediatest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mediatest.cpp; path = mediator/mediatest.cpp; sourceTree = "<group>"; };
+		4BCB9E9818E1D87300EB280A /* mediatest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mediatest.h; path = mediator/mediatest.h; sourceTree = "<group>"; };
 		4BCF186A18E07E6E008BBED2 /* Manager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Manager.h; path = duty/Manager.h; sourceTree = "<group>"; };
 		4BCF186B18E0827F008BBED2 /* dutytest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = dutytest.h; path = duty/dutytest.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,6 +84,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B30FEFC18E1CD3A00EDD3D7 /* 13mediator */ = {
+			isa = PBXGroup;
+			children = (
+				4B30FEFD18E1CD9500EDD3D7 /* mediator.h */,
+				4BCB9E9318E1D49700EB280A /* mediator.cpp */,
+				4B30FEFE18E1D04400EDD3D7 /* person.h */,
+				4B30FF0018E1D41900EDD3D7 /* person.cpp */,
+				4BCB9E9818E1D87300EB280A /* mediatest.h */,
+				4BCB9E9718E1D87300EB280A /* mediatest.cpp */,
+			);
+			name = 13mediator;
+			sourceTree = "<group>";
+		};
 		4BA4FDFD18DE92DD00F591A1 = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +139,7 @@
 		4BA4FE0F18DE92DD00F591A1 /* xcyDesignMode */ = {
 			isa = PBXGroup;
 			children = (
+				4B30FEFC18E1CD3A00EDD3D7 /* 13mediator */,
 				4BCF186818E07C71008BBED2 /* 14duty */,
 				4BB35E5B18DF299300EF97A4 /* 15observer */,
 				4BA4FE3018DE930000F591A1 /* 16state */,
@@ -207,6 +231,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BCB9E9A18E1D87300EB280A /* mediatest.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +316,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B30FF0218E1D41900EDD3D7 /* person.cpp in Sources */,
+				4BCB9E9518E1D49700EB280A /* mediator.cpp in Sources */,
+				4BCB9E9918E1D87300EB280A /* mediatest.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,7 +385,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -388,7 +416,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
@@ -398,6 +426,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "xcyDesignMode/xcyDesignMode-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -407,6 +436,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "xcyDesignMode/xcyDesignMode-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};

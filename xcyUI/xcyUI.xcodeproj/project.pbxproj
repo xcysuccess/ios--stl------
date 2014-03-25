@@ -25,6 +25,7 @@
 		4B466E071881654600500742 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B466DE61881654600500742 /* UIKit.framework */; };
 		4B466E0F1881654600500742 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B466E0D1881654600500742 /* InfoPlist.strings */; };
 		4B466E111881654600500742 /* xcyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B466E101881654600500742 /* xcyUITests.m */; };
+		4BCB9E9C18E1D99900EB280A /* libxcyDesignMode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BCB9E9B18E1D99900EB280A /* libxcyDesignMode.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +40,8 @@
 
 /* Begin PBXFileReference section */
 		4B07202C18E173A700D35C1F /* libxcyDataStruct.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libxcyDataStruct.a; path = "../../../Library/Developer/Xcode/DerivedData/iosNew-ahpybpajfxdrptaexrvrsbuzcypq/Build/Products/Debug-iphoneos/libxcyDataStruct.a"; sourceTree = "<group>"; };
-		4B07202D18E173A700D35C1F /* libxcyDesignMode.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = libxcyDesignMode.a; path = ../xcyDesignMode/build/Debug/libxcyDesignMode.a; sourceTree = "<group>"; };
-		4B07202E18E173A700D35C1F /* libxcyNetWork.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = libxcyNetWork.a; path = ../xcyNetWork/build/Debug/libxcyNetWork.a; sourceTree = "<group>"; };
+		4B07202D18E173A700D35C1F /* libxcyDesignMode.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libxcyDesignMode.a; path = ../xcyDesignMode/build/Debug/libxcyDesignMode.a; sourceTree = "<group>"; };
+		4B07202E18E173A700D35C1F /* libxcyNetWork.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libxcyNetWork.a; path = ../xcyNetWork/build/Debug/libxcyNetWork.a; sourceTree = "<group>"; };
 		4B3B310818822BA8006B88D2 /* libxcyBASE.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libxcyBASE.a; path = "../xcyBASE/build/Debug-iphoneos/libxcyBASE.a"; sourceTree = "<group>"; };
 		4B466DDF1881654600500742 /* xcyUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xcyUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B466DE21881654600500742 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,6 +65,7 @@
 		4B466E101881654600500742 /* xcyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xcyUITests.m; sourceTree = "<group>"; };
 		4B466E1A1881655E00500742 /* libxcyBASE.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libxcyBASE.a; path = "../xcyBASE/build/Debug-iphoneos/libxcyBASE.a"; sourceTree = "<group>"; };
 		4B466E1B1881655E00500742 /* libxcySTL.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libxcySTL.a; path = "../../../Library/Developer/Xcode/DerivedData/xcycompany-gmkifzukfjihpkbjdyrheyemnsef/Build/Products/Debug-iphoneos/libxcySTL.a"; sourceTree = "<group>"; };
+		4BCB9E9B18E1D99900EB280A /* libxcyDesignMode.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libxcyDesignMode.a; path = "../../../Library/Developer/Xcode/DerivedData/iosNew-ahpybpajfxdrptaexrvrsbuzcypq/Build/Products/Debug-iphoneos/libxcyDesignMode.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BCB9E9C18E1D99900EB280A /* libxcyDesignMode.a in Frameworks */,
 				4B07202F18E173A700D35C1F /* libxcyDataStruct.a in Frameworks */,
 				4B3B310A18822D91006B88D2 /* libxcySTL.a in Frameworks */,
 				4B3B310918822BA8006B88D2 /* libxcyBASE.a in Frameworks */,
@@ -115,6 +118,7 @@
 		4B466DE11881654600500742 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4BCB9E9B18E1D99900EB280A /* libxcyDesignMode.a */,
 				4B07202C18E173A700D35C1F /* libxcyDataStruct.a */,
 				4B07202D18E173A700D35C1F /* libxcyDesignMode.a */,
 				4B07202E18E173A700D35C1F /* libxcyNetWork.a */,
@@ -414,7 +418,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "xcyUI/xcyUI-Prefix.pch";
 				INFOPLIST_FILE = "xcyUI/xcyUI-Info.plist";
-				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/iosNew-ahpybpajfxdrptaexrvrsbuzcypq/Build/Products/Debug-iphoneos";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "../ ./ ../../xcySTL/ ../../xcyBASE/";
 				WRAPPER_EXTENSION = app;
@@ -430,7 +434,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "xcyUI/xcyUI-Prefix.pch";
 				INFOPLIST_FILE = "xcyUI/xcyUI-Info.plist";
-				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/iosNew-ahpybpajfxdrptaexrvrsbuzcypq/Build/Products/Debug-iphoneos";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "../ ./ ../../xcySTL/ ../../xcyBASE/";
 				WRAPPER_EXTENSION = app;
